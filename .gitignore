@@ -1,0 +1,12 @@
+# downloaded / built artifacts — not checked in
+sources/
+*.ko
+*.o
+*.mod
+*.mod.c
+*.cmd
+*.tar.gz
+*.bin
+.tmp_versions/
+Module.symvers
+modules.order
