@@ -59,6 +59,14 @@ nmcli --ask device wifi connect "<SSID>"
 Full walkthrough: **[docs/driver-build.md](docs/driver-build.md)**
 Monitor mode / capture: **[docs/monitor-mode.md](docs/monitor-mode.md)**
 
+## Credits
+
+- **beapig** — the `Ubuntu24.04_for_PicoCalc` image (v260814) this is built and tested on.
+- The **ClockworkPi forum** [*Luckfox Lyra on PicoCalc*](https://forum.clockworkpi.com/t/luckfox-lyra-on-picocalc/16280)
+  community — groundwork on Ubuntu for the Lyra and internal WiFi routing.
+- The upstream Linux **`mt76`** driver authors and the **linux-firmware** project — the
+  driver and firmware that make the chip work.
+  
 ## Status
 
 Confirmed working: association to WPA2 and WPA3/SAE 5 GHz networks, DHCP, ~10–15 ms ping,
